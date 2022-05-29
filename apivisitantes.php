@@ -21,6 +21,7 @@ class ApiVisitantes{
                     "id" => $row['id'],
                     "email" => $row['email'],
                     "asunto" => $row['asunto'],
+                    "telefono" => $row['telefono'],
                     "mensaje" => $row['mensaje'],
                 );
                 array_push($visitantes["items"], $item);
